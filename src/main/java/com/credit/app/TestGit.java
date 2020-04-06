@@ -10,6 +10,7 @@ public class TestGit {
 	System.out.println("new 5555555");
 	System.out.println("new 6666666");
 	System.out.println("new 7777777");
+	System.out.println("修改了bug2");
 	System.out.println("new 30303030");
 }
 }
