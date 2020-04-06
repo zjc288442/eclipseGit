@@ -1,10 +1,17 @@
 package com.credit.app.dto;
 
-/**
- * Created by Administrator on 2020/4/6.
- */
+
 public class User {
-    String userId;
+    private String userId;
+    private String sex;
+
+    public String getSex() {
+        return sex;
+    }
+
+    public void setSex(String sex) {
+        this.sex = sex;
+    }
 
     @Override
     public String toString() {
@@ -30,5 +37,5 @@ public class User {
         this.userName = userName;
     }
 
-    String userName;
+    private String userName;
 }
