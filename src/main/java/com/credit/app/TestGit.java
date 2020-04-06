@@ -6,5 +6,6 @@ public class TestGit {
     System.out.println("new 000000000000");
 	System.out.println("new 22222");
 	System.out.println("new 33333");
+	System.out.println("增加了新功能到主干");
 }
 }
