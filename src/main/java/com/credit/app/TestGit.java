@@ -7,5 +7,10 @@ public class TestGit {
 	System.out.println("new 22222");
 	System.out.println("new 33333");
 	System.out.println("增加了新功能到主干");
+	System.out.println("new 4444444");
+	System.out.println("new 5555555");
+	System.out.println("new 6666666");
+	System.out.println("new 7777777");
+	System.out.println("修改了bug2");
 }
 }
