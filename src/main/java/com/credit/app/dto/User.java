@@ -5,10 +5,7 @@ public class User {
     private String userId;
     private String userName;
     private String sex;
-    @Override
-    public User(String userId) {
-        this.userId = userId;
-    }
+
     public String toString() {
         return "User{" +
                 "userId='" + userId + '\'' +
