@@ -1,12 +1,15 @@
 package com.credit.app.dto;
 
-/**
- * Created by Administrator on 2020/4/6.
- */
 public class User {
-    String userId;
+    private String userId;
+    private String userName;
+
+    public User(String userId) {
+        this.userId = userId;
+    }
 
     @Override
+
     public String toString() {
         return "User{" +
                 "userId='" + userId + '\'' +
@@ -29,6 +32,4 @@ public class User {
     public void setUserName(String userName) {
         this.userName = userName;
     }
-
-    String userName;
 }
