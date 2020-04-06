@@ -1,15 +1,14 @@
 package com.credit.app.dto;
 
+
 public class User {
     private String userId;
     private String userName;
-
+    private String sex;
+    @Override
     public User(String userId) {
         this.userId = userId;
     }
-
-    @Override
-
     public String toString() {
         return "User{" +
                 "userId='" + userId + '\'' +
@@ -31,5 +30,12 @@ public class User {
 
     public void setUserName(String userName) {
         this.userName = userName;
+    }
+    public String getSex() {
+        return sex;
+    }
+
+    public void setSex(String sex) {
+        this.sex = sex;
     }
 }

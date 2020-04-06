@@ -14,5 +14,7 @@ public class TestGit {
 	System.out.println("修改了bug2");
 	System.out.println("修改了bug2");
 	System.out.println("主干修改2");
+	System.out.println("new 30303030");
+	System.out.println("3。0 修改了bug");
 }
 }
