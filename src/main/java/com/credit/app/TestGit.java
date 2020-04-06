@@ -8,5 +8,6 @@ public class TestGit {
 	System.out.println("new 33333");
 	System.out.println("new 4444444");
 	System.out.println("new 5555555");
+	System.out.println("new 6666666");
 }
 }
